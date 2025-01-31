@@ -1,0 +1,15 @@
+/* Basic reset and mobile-friendly canvas styling */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  background: #222;
+  width: 100vw;
+  height: 100vh;
+}
